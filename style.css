@@ -1,0 +1,272 @@
+
+    /**/
+  
+
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#home{
+    height: 90vh;
+}
+
+.sombra{
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.2); 
+
+
+}
+
+body{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dfdfdf;
+}
+
+nav.nav-transparente{
+    background: #fcfcfc;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.nav-item{
+    margin-right: 15px;
+}
+
+.btn-nav{
+    color: white;
+    padding: 10px 20px;
+    transition: background 0.2s, color 0.2s;
+    border-radius: 500px;
+    
+}
+
+
+
+
+
+
+.btn-nav-cor{
+    outline: none;
+    color: #001F3F;
+    margin-right: 5px;
+}
+
+.btn-nav-cor:hover{
+    background: #001F3F;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 0 -3px 0 #1263ab;
+}
+
+
+.btn-nav-cor.active {
+    background-color: white;
+    color: #001F3F;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 3px #1263ab;
+    border-radius: 500px;
+}
+
+
+.btn-nav-cor.active:hover{
+    background: #001F3F;
+    color: white;
+
+}
+
+.capa{
+    text-align: center;
+}
+
+#home{
+    background-image: url(imagens/dois-onibus-brancos-viajando-na-estrada-de-asfalto-na-paisagem-rural-ao-por-do-sol-com-nuvens-dramat\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto; 
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-preto{
+    background: #1263ab;
+}
+
+.btn-preto:hover{
+    background: #0047AB;
+    color: white;
+}
+
+
+#servicos{
+    background: #fcfcfc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #001F3F;
+
+}
+
+strong, span{
+    color: #001F3F;
+    
+}
+
+#servicos h2{
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.2); 
+    padding: 5px;
+}
+
+
+.divisao{
+    text-align: center;
+    background: white;
+}
+
+#servicos2 button{
+    pointer-events: none;
+    color: #001F3F;
+    outline: auto;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px;
+
+
+} 
+
+.icon1{
+    background-color: #1263ab;
+    color: white;
+    outline: none;
+}
+
+.icon1:hover{
+    background: #0077b5;
+    color: white;
+}
+
+.icon2{
+    background: rgb(3, 170, 3);
+    color: white;
+}
+
+.icon2:hover{
+    background: #25D366 ;
+    color: black;
+}
+
+footer p a{
+    margin: 5px 15px;
+}
+
+footer a{
+    color: #1263ab;
+}
+
+.wrapper {
+  gap: 1rem;
+  margin-bottom: 10px; 
+}
+
+.borda {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+  background-color: #fff;
+}
+
+.gestao h3{
+    color: #1263ab;
+    padding: 5px;
+}
+
+.gestao h2{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px;
+
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%; /* ou o valor que você quiser */
+    object-fit: cover;
+}
+
+
+ul li{
+    list-style: none;
+}
+
+li a{
+    color: #1263ab;
+}
+
+.convenio img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+label{
+    color: #001F3F;
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+     h1 {
+        font-size: 4em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+     
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+     
+ }
